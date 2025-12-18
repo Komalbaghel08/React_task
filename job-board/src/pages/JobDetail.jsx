@@ -4,7 +4,7 @@ import ApplyForm from "../components/ApplyForm";
 
 export default function JobDetail() {
   const { id } = useParams();
-  const job = jobsData.find(j => j.id === Number(id));
+  const job = jobsData.find((j) => j.id === Number(id));
 
   return (
     <div className="container">
